@@ -9,6 +9,8 @@
 This repository contains method stubs and tests of the problems from
 [Elements Of Programming Interviews] by Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash.  This book is also available in [Python] and [C++].
 
+haley-solutions contains Haley Kell's solutions.
+
 ## Suggested usage:  
 * Purchase [Elements of Programming Interviews]
 * Fork [master] (top right corner on github)
