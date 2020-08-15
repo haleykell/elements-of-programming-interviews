@@ -5,7 +5,21 @@ public class PalindromeAlphanumeric {
     */
 
     public static boolean isPalindrome(String input) {
+        int i = 0;
+        int j = input.length() - 1;
 
-        return false;
+        while (i < j) {
+            if (!Character.isLetterOrDigit(input.charAt(i))) {
+                i++;
+                continue;
+            }
+            if (!Character.isLetterOrDigit(input.charAt(j))) {
+                j--;
+                continue;
+            }
+            if (Character.toLowerCase(input.charAt(i++)) != Character.toLowerCase(input.charAt(j--))) return false;
+        }
+
+        return true;
     }
 }
